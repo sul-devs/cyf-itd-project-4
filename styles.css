@@ -1,0 +1,29 @@
+/* Fonts */
+@font-face {
+  font-family: "exobold";
+  src: url("./fonts/exo-bold-webfont.woff2") format("woff2"),
+    url("./fonts/exo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "exomedium";
+  src: url("./fonts/exo-medium-webfont.woff2") format("woff2"),
+    url("./fonts/exo-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #fff;
+  background: url("./images/space.jpg") no-repeat center center/cover;
+  text-align: center;
+  font-family: "exomedium";
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-family: inherit;
+}
