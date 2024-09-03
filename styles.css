@@ -15,10 +15,22 @@
 }
 
 body {
-  color: #fff;
-  background: url("./images/space.jpg") no-repeat center center/cover;
+  color: #b6832a;
   text-align: center;
   font-family: "exomedium";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  background-image: url("https://media.giphy.com/media/3o7buctjKD8g5r4544/giphy.gif?cid=790b76115159gi0x3x8f3ciu1o4c74bzae3o1632iotvnre6&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-size: cover;
+  padding: 220px 0;
+}
+
+#hero h1 {
+  text-shadow: 0 0 4px black;
 }
 
 .btn {
@@ -26,4 +38,14 @@ body {
   padding: 10px 20px;
   background-color: #fff;
   font-family: inherit;
+  color: #393329;
+  font-weight: 800;
+}
+
+#main-logo {
+  width: 150px;
+}
+
+.underline {
+  border-bottom: 4px solid #fff;
 }
